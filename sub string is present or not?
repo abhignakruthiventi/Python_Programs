@@ -1,0 +1,7 @@
+string =input()
+substring = input()  
+s = string.split()
+if substring in s:
+    print("yes")
+else:
+    print("no")
