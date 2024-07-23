@@ -1,0 +1,10 @@
+def fact(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+def strong(num):
+    sf=sum(fact(int(digit)) for  digit in str(num))
+    return sf==num
+num=int(input())
+print(strong(num))
